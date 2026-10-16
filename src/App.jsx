@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageNotFound from './lib/PageNotFound';
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from '@/components/ScrollToTop';
 import { LangProvider } from '@/lib/i18n';
 import { FavProvider } from '@/lib/favorites';
 import Layout from '@/components/layout/Layout';
